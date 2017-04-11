@@ -1,0 +1,69 @@
+body {
+    background-image: url('../img/uk.jpg');
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh
+}
+
+ul {
+    text-align: center;
+    cursor: pointer;
+}
+
+
+ul li {
+    display: inline;
+    margin: 50px;
+    transition: 0.5s;
+}
+
+li:hover {
+    color: #ccc;
+}
+
+nav.desktop-view{
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 50px;
+    color: #111;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #111;
+}
+
+#hamburger {
+    font-size: 20px
+}
+
+.social {
+    height: 30px;
+    float: right;
+    margin-left: 10px;
+}
+
+
+nav.mobile-view {
+    display: none;
+    margin: 10px;
+}
+
+@media (max-width: 500px) {
+    nav.desktop-view {
+        display: none;
+    }
+    nav.mobile-view {
+        display: block;
+    }
+}

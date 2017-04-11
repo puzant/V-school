@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 12px;
+    font-style: italic;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+table {
+    width:100%;
+    margin: 0 auto;
+
+}
+
+th, td, table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #7198d6;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

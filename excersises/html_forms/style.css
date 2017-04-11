@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-size: 15px;
+    background-image: url('http://www.optawall.com/wallpapers/1032.jpg');
+    background-size: cover;
+    background-repeat: none;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.container {
+    background-color: #ccc;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    color: #111;
+    border-radius: 7px;
+}
+
+h2 {
+    font-size: 2.3em;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    border: none;
+    transition: 0.5s;
+    height: 25px;
+    width: 12%;
+}
+
+input[type="submit"]:hover {
+    color: #111;
+    background-color: skyblue;
+}
+
+input[type="number"] {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 60%;
+    }
+    input[type="radio"] {
+        display: block;
+    }
+    input[type="checkbox"] {
+        display: block;
+    }
+    input[type="submit"] {
+        width: 35%;
+    }
+}

@@ -1,0 +1,23 @@
+.box {
+    height: 100px;
+    background-color: #F5C6D6;
+}
+.box2 {
+    height: 100px;
+    background-color: #EE2E84;
+}
+.box3 {
+    height: 100px;
+    background-color: #85CFD8;
+}
+.box4 {
+    height: 100px;
+    background-color: #8DC63F;
+}
+.box5 {
+    height: 100px;
+    background-color: #E76E34;
+}
+.white-border {
+    border: 5px solid white;
+}

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+section p {
+    width: 80%;
+    text-align: justify
+}
+
