@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="ctrl">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <label for="usr">Image URL</label>
+                <input type="text" class="form-control" id="usr" ng-model="imageUrl">
+
+                <label for="usr">Image Title:</label>
+                <input type="text" class="form-control" id="usr" ng-model="imageTitle">
+
+                <label for="usr">Image Description:</label>
+                <input type="text" class="form-control" id="usr" ng-model="imagedesc">
+                <br>
+                <button type="button" name="button" class="btn btn-primary" ng-click="add(imageUrl, imageTitle , imagedesc)">Submit</button>
+                
+                <div ng-repeat="x in arr">
+                   <div class="content">
+                    <span>Image: <img ng-src="{{x.url}}" alt=""></span>
+                    <span>Title: {{x.title}}</span>
+                    <span>Description: {{x.desc}}</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="CS.js"></script>
+</body>
+
+</html>

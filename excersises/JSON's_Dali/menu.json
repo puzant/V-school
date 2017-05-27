@@ -1,0 +1,42 @@
+{
+    "appetaizers": [
+        {
+            "name": "fatouch",
+            "ingrediant": ["tomato", "ba2l2", "onion"],
+            "description": "this dish is very delicious",
+        }
+    ], 
+    
+    "coldSandwiches": [
+    {"name": "shwaroma",
+    "ingridiant": ["chciken", "onion"],
+    "description": "very dilicious traditional dish"}
+    ],
+,
+
+   {
+       "hotSandwiches": [
+           "name": "labneh",
+           "ingridiant": ["labneh", "olive oil"],
+       "description": "labneh is made of cheese and it is cremy"
+       ],
+   },
+
+{
+     "desserts": [
+         "name": "knafeh",
+         "ingridant": ["chees", "keter"],
+        "description": "very dilicious arabic sweet"
+     ],
+},
+
+
+{
+    "drinks": [
+        "name": "3arak",
+        "ingridiant": ["yanson", "3nab me2tar"],
+    "description": "traditional arabic drink"
+    ],
+  },
+
+}

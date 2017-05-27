@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="headline"><h3>post your high score</h3></div>
+    <section>
+        <lable>Name:</lable><input name="name" id="name" type="text">
+        <label>Game:</label><input name="game" id="game" type="text">
+        <label>Date of the score:</label><input name="date" id="date" type="date">
+        <label>High Score</label><input name="score" id="score" type="number">
+        <label>Trash Talking message gerator</label>
+        <div class="input">
+            <input type="checkbox" id="checked">
+        </div>
+        <input onclick="display()" type="submit">
+    </section>
+    <span>Sort the table: </span>
+    <select>
+  <option value="ascending">ascending</option>
+  <option value="desending">desending</option>
+</select>
+    <div style="overflow-x:auto;">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Game</th>
+                <th>date</th>
+                <th>High Score</th>
+                <th>Trash talk
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="snackbar">Please fill all the form</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

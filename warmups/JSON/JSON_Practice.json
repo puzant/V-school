@@ -1,0 +1,11 @@
+{
+	"name": "james",
+	"lastname": "franco",
+	"email": "FJAMES@hotmail.com",
+	"age": 32,
+	"photo": "https://wallpaperscraft.com/image/balloon_flight_plant_91681_1920x1080.jpg",
+	"gender": "male",
+	"friends": ["sam", "anna", "jenny"],
+    "alive": true
+
+}

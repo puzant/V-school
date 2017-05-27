@@ -1,0 +1,70 @@
+body {
+    background-image: url('http://avante.biz/wp-content/uploads/Material-Wallpapers/Material-Wallpapers-026.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.red {
+    height: 50px;
+    background-color: #d8495c;
+    color: #fff;
+}
+
+.green {
+ height: 50px;
+    background: #67d378;
+    color: #fff;
+}
+
+#text {
+    margin-top: 30px;
+    text-align: justify;
+    color: #fff
+}
+
+#text2 {
+    margin-top: 30px;
+    text-align: justify;
+    color: #fff;
+}
+
+#text3 {
+  text-align: justify;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+    border: 2px solid #ccc;
+    margin-bottom: px;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+h2 {
+  color: #ccc;
+  margin-left: 10px;
+}
+
+.wrapper {
+  background-color: #ccc;
+  height: 145px;
+  margin-left: 10px;
+}
+
+input[type="text"] {
+  margin-top: 25px;
+  padding: 3px;
+  width: 45%;
+  border: none;
+}

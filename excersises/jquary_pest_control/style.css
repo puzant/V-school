@@ -2,13 +2,11 @@
 body {
     margin: 0;
     padding: 0;
-    /*background-image: url('http://freefifa17coins.fifa16key.net/assets/socialcheats/images/background.jpg');*/
-	background-image: url('imgs/background.jpg');
-
+    background-image: url('http://freefifa17coins.fifa16key.net/assets/socialcheats/images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
 }
+
 
 h2 {
     text-align: center;
@@ -54,17 +52,17 @@ input {
 }
 
 .box1 img {
-    height: 200px;
+    height: 170px;
     margin-left: 30px;
 }
 
 .box2 img {
-    height: 200px;
+    height: 170px;
     margin-left: 60px;
 }
 
 .box3 img {
-    height: 200px;
+    height: 170px;
     margin-left: 30px;
 }
 
@@ -73,19 +71,24 @@ input {
     font-size: 20px;
 }
 
-#btn {
+#btn, #btn1, #btn2, #btn3 {
     color: #111;
     border: none;
     padding: 10px 30px;
     margin-left: 80px;
     margin-top: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
-#btn:hover {
+/*
+#btn, #btn1:hover {
     background-color: #4CAF50;
     color: #fff;
 }
+*/
+
+
 
 .sum {
     text-align: center;
@@ -98,20 +101,7 @@ input {
     text-align: center;
 }
 
-#btn2 {
-    color: #111;
-    border: none;
-    padding: 10px 30px;
-    margin-left: 20px;
-    transition: 0.5s;
-    height: 45px;
-    width: 15%;
-}
 
-#btn2:hover {
-    background-color: #4CAF50;
-    color: #fff;
-}
 
 .total-text {
     display: inline;
@@ -130,3 +120,5 @@ footer {
 footer span {
     margin: 20px;
 }
+
+

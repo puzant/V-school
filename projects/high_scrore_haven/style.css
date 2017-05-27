@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/originals/aa/3e/ea/aa3eeab2573673aa9938966aa52af930.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#headline {
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 25px;
+}
+
+#headline h3 {
+    padding: 15px;
+    display: inline;
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Robotp';
+    background-color: #111;
+        border-radius: 5px;
+
+}
+
+section {
+    background-color: #ccc;
+    padding: 10px;
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 15px
+}
+
+section {
+    background: #000;
+    color: #fff;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+section:hover {
+    opacity: 1;
+}
+
+input {
+    display: block;
+    margin: 10px;
+    width: 95%;
+    margin-left: -2px;
+    border: none;
+    padding: 5px;
+    border-radius: 4px
+}
+
+input[type="submit"] {
+    width: 20%;
+    margin: 15px auto;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.input input[type="checkbox"] {
+    width: 25px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #555;
+}
+
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #ccc;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+table:hover {
+    opacity: 1;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+tr {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #111;
+    color: white;
+}
+
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@media only screen and (max-width: 500px) {
+    section {
+        width: 90%;
+    } 
+}
+
+span {
+    color: #fff;
+    font-size: 22px;
+}
+
+select {
+    position: absolute;
+    top: 523px;
+    left: 137px;
+    border: none;
+    background: #111;
+    color: #fff;
+    height: 26px;
+    width: 9%;
+    border: 1px solid #fff;
+    transition: 0.6s;
+    margin-bottom: 12px;
+}
+
+select:hover {
+    background: #fff;
+    color: #111;
+    border: 1px solid #111;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="ctrl">
+
+
+    <div class="container">
+        <span id="headline">Add a Todo </span>
+        <form ng-submit="addItem(todo)" id="myform">
+            <input type="text" id="todo" ng-model="todo.title">
+            <button id="btn" onclick="add()">Add</button>
+        </form>
+        <div class="list">
+            <div ng-repeat="x in todoItems">
+                <input type="checkbox" ng-model="x.done"><span id="item" ng-bind="x.title" ng-class="{strike: x.done}"></span>
+                <button ng-click="deleteItem(x)" id="btn2">X</button>
+
+                <button  class="glyphicon glyphicon-pencil" id="BTN"></button>
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                        Enter something: input
+                        <input type="text">
+                    </div>
+                </div>
+                `
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+body {
+    color: #fff;
+        box-sizing: border-box;
+}
+
+
+.container {
+    display: inline;
+}
+
+.box1,.box2,.box3 {
+/*
+    position: relative;
+    left: 120px;
+*/
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+        /*    opacity: 0.9;*/
+    background: rgb(0, 0, 0);
+    background: transparent\9;
+    background: rgba(0, 0, 0, 0.4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+    zoom: 1;
+    border: 5px solid #fff;
+    border-radius: 8px;
+}
+
+.box1 {
+    background-color: #1b6cb7;
+}
+
+.box3 {
+    background-color: #e2c151;
+}
+
+img {
+    position: absolute;
+    width: 55%;
+    height: 180px;
+    left: 660px;
+}
+
+.box1,.box2,.box3, p {
+text-align: left;
+    width: 70%;
+}
+

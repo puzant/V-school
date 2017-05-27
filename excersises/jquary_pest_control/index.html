@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>mario pest control</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Rectangular switch -->
+
+    <h2>Mario Pest Control</h2>
+
+
+    <div class="main-container">
+        <div class="box1">
+            <img src="imgs\Deep_Cheep_NSMBU.png">
+            <p>Name: Cheep-Cheep</p>
+            <p>Price: 11 Coins</p>
+            <input type="text" id="input" placeholder="quantity">
+            <button id="btn" onclick="cal()">submit</button>
+            <p id="demo"></p>
+        </div>
+
+        <div class="box2">
+            <img src="imgs\GoombaNSMB.png">
+            <p>Name: Goombas</p>
+            <p>Price: 5 Coins</p>
+            <input type="text" id="input2" placeholder="quantity">
+            <button id="btn1" onclick="cal2()">submit</button>
+            <p id="demo2"></p>
+        </div>
+
+        <div class="box3">
+            <img src="imgs\bobomb.png">
+            <p>Name: Bob-ombs</p>
+            <p>Price: 7 Coins</p>
+            <input type="text" id="input3" placeholder="quantity">
+            <button id="btn2" onclick="cal3()">submit</button>
+            <p id="demo3"></p>
+        </div>
+    </div>
+    <div class="sum">
+        <p class="total-text">check the total sum:</p>
+        <button id="btn3" onclick="calTotal()">total</button>
+        <p id="totalSum"></p>
+    </div>
+    <!--footer goes here-->
+    <footer>
+        <span>Email Addres: mario@gmail.com</span>
+        <span>Company Website: www.italianplumbing.com</span>
+        <span>Address: at the end of the sewyer</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

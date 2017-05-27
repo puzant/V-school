@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <section>
+  <div class="input1">
+   <label>Search Here by Handle: </label><input type="text" ng-model="test.handle">
+    </div>
+      <div class="input2">
+   <label>Search Here by Rank: </label><input type="text" ng-model="test.rank">
+    </div>
+      <div class="input3">
+   <label>Search Here by Clan: </label><input type="text" ng-model="test.clan">
+    </div>
+    </section>
+    <table ng-controller="myctrl">
+        <th>handle</th>
+        <th>rank</th>
+        <th>clan</th>
+        <tr ng-repeat="x in player.kills | filter:test">
+            <td>{{x.handle}}</td>
+            <td>{{x.rank}}</td>
+            <td>
+            <ul ng-repeat="y in x.clan | filter:test">
+                <span>{{y}}</span>
+            </ul>
+            </td>
+        </tr>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
