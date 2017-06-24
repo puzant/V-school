@@ -1,0 +1,145 @@
+body {
+    background-color: #EAEAEA;
+    font-family: helvatica;
+    padding: 0;
+    margin: 0;
+    color: red;
+}
+
+header {
+    line-height: 3em;
+    position: relative;
+    background-color: #88AABD;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    color: #EAEAEA;
+}
+
+h2 {
+    font-size: 48px;
+    text-shadow: 2px 2px #3a3a3a;
+    font-style: italic;
+}
+
+.desc {
+    font-size: 38px;
+    text-shadow: 2px 2px #3a3a3a;
+    font-style: italic;
+}
+
+
+nav {
+    position: absolute;
+    background-color: #5F9EA0;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    text-decoration: none;
+    color: #eaeaea;
+    padding-right: 20px;
+    font-size: 25px;
+    transition: 0.5s;
+    margin: 30px;
+}
+
+a:hover {
+    color: #2c3e50;
+}
+
+
+section {
+    background-color: #ccc;
+    margin-top: 90px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.images, img {
+    text-align: center;
+}
+
+img {
+    width: 25%;
+    height: 70px;
+}
+
+.about {
+    display: block;
+    padding: 5px;
+     margin-top: 20px;
+    font-size: 1.3em;
+}
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.fade-2 {
+  border-width: 0 0 1px;
+  color: skyblue;
+  border-image: linear-gradient(90deg, rgba(135, 206, 235, 0), skyblue 50%, rgba(135, 206, 235, 0) 100%) 0 0 100%;
+  border-style: solid;
+}
+
+.sec-2 {
+    background-color: #ccc;
+    margin-top: 60px;
+    padding: 20px;
+    height: 100%;
+}
+
+.sec-2 span {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/*skills sections code*/
+@media (min-width: 630px) {
+.bean-skills {
+	width: 50%;
+  margin: 0 auto;
+  padding:0;
+  list-style-type: none;
+	}
+}
+
+.bean-skills p {
+	margin-bottom: 40px;
+	}
+
+ul.bean-skillset {
+	width: 100%;
+  list-style-type: none;
+	}
+
+.skill-percent {
+	float: right;
+	}
+
+li.skill-bar {
+	background-color: #42DCA3;
+	color: #FFF;
+	font: bold 12px/23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-bottom: 3px;
+	padding: 2px 8px;
+	width: 300px;
+
+	}
+
+.color{
+  color: #111;
+}
