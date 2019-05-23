@@ -1,3 +1,5 @@
+![](https://coursework.vschool.io/content/images/2016/10/v-school-abbreviated-coursework-logo.jpg)
+
 # V-school
 ## Exercises and projects done during a 4 month coding bootcamp
 
